@@ -8,7 +8,11 @@ function App() {
 
   return (
     <>
-      <div className="test">Testing the react app</div>
+      <div className="Login">
+        <div className="box">
+          Username<input type="text" />
+        </div>
+      </div>
     </>
   )
 }
