@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    
  
     <div className="container" id="container">
   <div className="form-container sign-up">
