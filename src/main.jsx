@@ -1,10 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+const container = document.getElementById("container");
+const registerBtn = document.getElementById("register");
+const loginBtn = document.getElementById("login");
+
+registerBtn.addEventListener("click", () => {
+  container.classList.add("active");
+});
+
+loginBtn.addEventListener("click", () => {
+  container.classList.remove("active");
+});
