@@ -19,18 +19,18 @@ setLoginActive(true)
     
  
     <div className={`container ${loginActive?"":"active"}`} id="container">
-  <div className="form-container sign-up">
+    <div className="form-container sign-up">
     <form>
       <h1>Create Account</h1>
       <div className="social-icons">
         <a href="#" className="icon">
-          <i className="google" />
+          <i className="fa-brands fa-google-plus-g" />
         </a>
         <a href="#" className="icon">
-          <i className="facebook-f" />
+          <i className="fa-brands fa-facebook-f" />
         </a>
         <a href="#" className="icon">
-          <i className="github" />
+          <i className="fa-brands fa-github" />
         </a>
         <a href="#" className="icon">
           <i className="fa-brands fa-linkedin-in" />
